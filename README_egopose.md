@@ -10,7 +10,7 @@
 ### Setup METRO with Conda (Zhifan modified)
 
 ```bash
-git clone --recursive https://github.com/microsoft/MeshTransformer.git
+git clone --recursive https://github.com/zhifanzhu/MeshTransformer.git
 cd MeshTransformer
 
 conda create --name metro-hand python=3.7
