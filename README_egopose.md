@@ -41,8 +41,9 @@ pip install ./thirdparty/libzhifan
 
 ```bash
 git clone git@github.com:ddshan/hand_object_detector.git ./thirdparty/hand_object_detector
-cd thirdparty/hand_object_detector/lib
 pip install -r thirdparty/hand_object_detector/requirements.txt
+cd thirdparty/hand_object_detector/lib
+python setup.py build develop
 cd ../../..  # Go back to MeshTransformer
 cp run_ho_detector.py thirdparty/hand_object_detector/
 ```
